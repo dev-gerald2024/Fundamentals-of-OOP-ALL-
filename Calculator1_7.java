@@ -22,8 +22,8 @@ public class Calculator1_7 {
                 subtraction1_7 subtract = new subtraction1_7();
                 subtract.getInput(num1, num2);
             } else if (user_choice.equals("*") ) {
-                subtraction1_7 subtract = new subtraction1_7();
-                subtract.getInput(num1, num2);
+                Multiplication1_7 multiply = new subtraction1_7();
+                multiply.getInput(num1, num2);
             } else if (user_choice.equals("/") ) {
                 Division1_7 div = new Division1_7();
                 div.getInput(num1, num2);
@@ -34,4 +34,5 @@ public class Calculator1_7 {
             }
         }
     }
+
 
